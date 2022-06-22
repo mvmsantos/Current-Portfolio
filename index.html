@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Santos</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+<!------------------------- MENU ------------------------------------------>
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#area-about">sobre mim</a></li>
+                    <li><a href="#area-language">tecnologias</a></li>
+                    <li><a href="#area-proj">projetos</a></li>
+                    <li><a href="#area-contact">contato</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu-opened">
+            <div class="open"></div>
+            <div class="open"></div>
+            <div class="open"></div>
+        </div>
+    </header>
+
+<!------------------------- Introdução ------------------------------------------>
+    <main>
+        <div id="area-apr">
+            <img id="foto" src="./assets/images/Marcos-image.png" alt="foto Marcos Santos">
+            <span>hello Dev's and Recruters</span>
+            <h1>Marcos Santos</h1>
+            <h2>Jr Front-End Developer</h2>
+            <div class="area-me">
+                <a id="linkedin" href="https://www.linkedin.com/in/marcos-santos-37379618b/"
+                target="_blank"><img src="./assets/images/linkedin.png" alt="imagem linkedin"></img></a>
+
+                <a id="github" href="https://github.com/mvmsantos" 
+                target="_blank"><img src="./assets/images/github.png" alt="imagem github"></img></a>
+
+                <a id="whatsapp"
+                    href="https://api.whatsapp.com/send?phone=5514996057056&text=Ol%C3%A1%20Marcos,%20vim%20pelo%20portfolio"
+                    target="_blank"><img src="./assets/images/whatsapp.png" alt="imagem whatsapp"></img></a>
+
+                <a id="instagram" href="https://www.instagram.com/marcos.5antos/" 
+                target="_blank"><img src="./assets/images/instagram.png" alt="imagem instagram"></img></a>
+            </div>
+        </div>
+
+    </main>
+
+<!------------------------- Sobre mim ------------------------------------------>
+
+    <section id="area-about">
+        <h1>sobre mim !</h1>
+        <div>
+            <div id="area-aboutTxt">
+                <h2>Olá, eu sou Marcos!</h2>
+                <p>
+                    Estou em transição de carreira adquirindo experiência realizando desenvolvimento web freelance 
+                    sou um ex-técnico em eletrônica com conhecimento em robótica e automação <br><br>
+                    Atualmente com foco em ingressar no segmento da 
+                    tecnologia como desenvolvedor Front-End e sou apaixonado por tecnologias!
+                    <br><br>
+                </p>
+                <p>
+                    Busco aprender as técnicas mais utilizadas pelos seniores na front-end, 
+                    em prol da melhor usabilidade dos usuários e estruturação do programa
+                </p>
+            </div>
+            <div class="area-anime">
+                <img src="./assets/images/coding.90b6d517.gif" alt="imagem ilustrativa">
+            </div>
+        </div>
+    </section>
+
+<!------------------------- Tecnologias ------------------------------------------>
+
+    <section id="area-language">
+
+        <h1>tecnologias que utilizo</h1>
+
+        <div class="area-icon">
+
+            <div class="icone" id="typescript">
+                <img src="./assets/images/typescript.png" alt="logo typescript">
+                <span class="s-typescript" style="display: none;">typescript</span>
+            </div>
+
+            <div class="icone" id="react">
+                <img src="./assets/images/react.png" alt="logo react">
+                <span class="s-react" style="display: none;">react</span>
+            </div>
+
+            <div class="icone" id="html">
+                <img src="./assets/images/html.png" alt="logo html">
+                <span class="s-html" style="display: none;">html</span>
+            </div>
+
+            <div class="icone" id="css">
+                <img src="./assets/images/css.png" alt="logo css">
+                <span class="s-css" style="display: none;">css</span>
+            </div>
+            <div class="icone" id="js">
+                <img src="./assets/images/java-script.png" alt="logo css">
+                <span class="s-js" style="display: none;">Java Script</span>
+            </div>
+        </div>
+
+    </section>
+
+<!------------------------- Projetos ------------------------------------------>
+
+    <section id="area-proj">
+
+        <h1>projetos</h1>
+        <div class="conteiner-proj">
+            <div class="area-proj1">
+                <a href="https://mvmsantos.github.io/CRHR-Project/" 
+                target="_blank"><img src="./assets/images/crhr pic.png" alt="imagem crhr"></img></a>
+            </div>
+
+            <div class="area-proj1">
+                <a href="https://mvmsantos.github.io/Maratona-Explorer-1/" 
+                target="_blank"><img src="./assets/images/maratona.png" alt="imagem MaratonaExplorer"></img></a>
+            </div>
+
+            <div class="area-proj1">
+                <span>EM BREVE</span>
+            </div>
+
+            <div class="area-proj1">
+                <span>EM BREVE</span>
+            </div>
+        </div>
+
+    </section>
+
+<!------------------------- Mensagem ------------------------------------------>
+
+    <section id="area-contact">
+        <div class="form">
+            <h1>Envie uma mensagem</h1>
+            <form action="https://formsubmit.co/marcos.infosantos@gmail.com" method="POST">
+
+                <input type="text" name="name" id="" placeholder="Seu nome" required>
+                <input type="email" name="email" id="" placeholder="Seu melhor email" required>
+                <input type="text" name="assunto" id="" placeholder="Assunto" required>
+                <textarea name="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <button type="submit" id="button">ENVIAR</button>
+            </form>
+        </div>
+
+        <div class="form-gif">
+            <img src="./assets/images/contact-image.b51c969d.gif" alt="imagem contato"></img>
+        </div>
+
+    </section>
+
+<!------------------------- Links Rede social ------------------------------------------>
+
+    <footer>
+        <div id="footer">
+            <div class="footer-area-me">
+                <a id="linkedin" href="https://www.linkedin.com/in/marcos-santos-37379618b/"
+                target="_blank"><img src="./assets/images/linkedin.png" alt="imagem linkedin"></img></a>
+
+                <a id="github" href="https://github.com/mvmsantos" 
+                target="_blank"><img src="./assets/images/github.png" alt="imagem github"></img></a>
+
+                <a id="whatsapp"
+                    href="https://api.whatsapp.com/send?phone=5514996057056&text=Ol%C3%A1%20Marcos,%20vim%20pelo%20portfolio"
+                    target="_blank"><img src="./assets/images/whatsapp.png" alt="imagem whatsapp"></img></a>
+
+                <a id="instagram" href="https://www.instagram.com/marcos.5antos/" 
+                target="_blank"><img src="./assets/images/instagram.png" alt="imagem instagram"></img></a>
+            </div>
+
+            <div class="footer-by">
+                <span>Power by: </span> <a href="https://www.linkedin.com/in/marcos-santos-37379618b/" target="_blank" 
+                    id="footer-by-name">Marcos Santos</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/portfolio.js"></script>
+</body>
+</html>
